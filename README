@@ -1,0 +1,29 @@
+VigMeUp for KDE
+Version 1.0.3
+http://www.c-nix.com/vigmeup
+
+This program is free software.  Please read the COPYING file.
+This software is copyright 1997, 1998, 1999, 2000 Sean R Melody and C-Nix Computing
+
+The License can be found in the file COPYING
+The Todo list can be found in the file TODO
+The list of changes can be found in the file CHANGELOG
+The instructions for installing this program can be found in the file INSTALL
+The story behind the name can be found in the file STORY
+
+Please direct all bugs reports and patches to vigmeup@c-nix.com as long as
+development is current. Which it is as of June 19, 2000.  Thank you.
+
+This is VigMeUp for KDE.  VigMeUp is an X11 program that uses the Qt widget set and the KDE
+graphical user interface to create an alarm program that will play MPEG layer 3 audio (mp3s) files
+at a specificed time.
+
+Features:
+1. Free Software
+2. Plays mp3 files with your player (which must be installed for this version).
+3. Saves last mp3 file played.
+4. Saves last time of alarm.
+5. Meets Open Source (TM) requirements.
+6. Integerates into the K Desktop Environment.
+
+VigMeUp for KDE is written in C++ using the Qt widget set and the KDE GUI.

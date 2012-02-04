@@ -1,0 +1,104 @@
+
+<!doctype linuxdoc system>
+<article>
+<title>The VigMeUp Handbook
+<author>Sean Melody   
+<tt> vigmeup@c-nix.com</tt>
+<date>Version 1.0.2 , Sun Jun 13 03:59:48 CDT 1999
+
+<abstract>
+This Handbook describes VigMeUp Version 1.0.2
+</abstract>
+
+<toc>
+
+<sect>Introduction
+<p>
+This is VigMeUp, an alarm clock program for KDE.  It is free (as in freedom) software, developed
+by me (Sean) in my spare time.  The latest and greatest versions are available at http://www.c-nix.com/vigmeup or your local KDE, linuxberg, or metalab mirror.
+<sect1>Changes
+<P>
+Since 1.0.1:
+I fixed a show stopper.  It is back to using system(), it works well with more mp3 players now.
+<p>
+Since 1.0.0:
+I switched to a cleaner execution scheme using fork and execv.  It works better. I used KFileDialog now, cause it actually works.
+Since 0.1.1:
+Lots of changes since last time.  I've switched to using KDevelop for its wizard, so everything is more KDE-correct now.
+<sect>Installation
+<p>
+<sect1>How to obtain VigMeUp 
+<p>
+You can obtain VigMeUp from ftp.kde.org, metlab.unc.edu, their respective mirrors, and of course, the main
+site at http://www.c-nix.com/vigmeup
+RPMS and Source RPMS for RedHat and SuSE as well as Slackware packages are available.
+
+<sect1>Requirements
+<p>
+You need at least KDE 1.0.  I think you might need KDE 1.1.1, but I'm not sure (sorry).  If VigMeUp 1.0.2 doesn't work for you, use VigMeUp 0.1.1 for KDE 1.0 and VigMeUp 0.7b for KDE Beta4.
+
+<sect1>Compilation and installation
+<p>
+
+In order to compile and install VigMeUp on your system, type the following in
+the base directory of the VigMeUp distribution:
+
+<tscreen><verb>
+% ./configure
+% make
+% make install
+</verb></tscreen>
+
+<p>
+Since VigMeUp uses <verb>autoconf</verb> you should have not trouble
+compiling it.
+Should you run into problems please report them to the the author at 
+<htmlurl url="mailto:vigmeup@c-nix.com" name = "Sean Melody">
+
+
+<p>
+<sect> Usage <p>
+<sect1> General Usage
+<p>
+The UI for VigMeUp is pretty straight-forward, if you ask me.  It is supposed to look like an alarm clock.
+All the functions on the alarm clock are also available on the menu-bar.  Options are saved.  Just choose
+your player, choose your song, set the alarm, and go to sleep.  Tomorrow, wake up to some music!
+
+
+<sect> The Story behind VigMeUp
+<p>
+A Long time ago in a galaxy far away...
+Actually, I met this guy named Jon Viglione, (nickname: Vig) 
+who had a terrible time waking up in the morning.
+This program is name in honor of him.  (Well, isn't that special!!)
+
+The ultimate irony is he still uses Windows.  But not for long :)
+
+I started developing VigMeUp for Windows back in the day.  Then I hacked together version 0.01 the night
+before two final exams here at the University.  Since then, I've been making little improvements.  I use
+VigMeUp every morning (or afternoon) to wake up!! It works great for me! :)
+
+<sect>Questions and Answers<p>
+If you have questions, ask me (Sean) by emailing me at vigmeup@c-nix.com
+No one has asked me any questions (AFAIK) that I think are relavant to everyone.
+<sect>Copyright<p>
+
+VigMeUp Copyright 1997, 1998, 1999 Sean Melody , vigmeup@c-nix.com
+
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+<p>
+</article>

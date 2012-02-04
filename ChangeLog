@@ -1,0 +1,89 @@
+1.0.3 June 18, 2000
+Well, stuff is working. I'm now using QLayouts to lay the geometry out
+so it looks better when you resize it.  Also, some people were typing
+in the name of the player.  It used to only set the player name if you
+selected it from the file dialog.  Now it checks it immediately.
+
+
+1.0.2 August 24, 1999
+I did my best to fix the bug that was crippling this software.  I'm really
+sorry about this...so now it works with x11amp, kmp3, mpg123, and most likely
+others.  If you have another and get a positive report, let me know 
+at vigmeup@c-nix.com
+	
+1.0.1 June 16, 1999
+Quick bug fix.  I switched to a fork()/execv() execution of the mp3 player.
+It appears to be a little cleaner than before.
+Also, back to using KFileDialog, now that it actually works.
+1.0.0 June 13, 1999
+It's been a long time coming, but here it is, a version of VigMeUp
+that is actually stable and KDE standards compliant.  Everything (that
+I can think of) works.  The direction I'm taking it now is asthetic,
+so don't worry about updating every second or whatever.  I used
+KDevelop to bring it up to speed and make it KDE happy.
+I changed the license BACK to GPL (From Artistic).
+0.1.2 Mid-Winter... (Northern Hemisphere)
+This was never released, but 0.1.2 had a bunch of changes that caused
+VigMeUp to be very unstable.  I wasn't happy with it.
+0.1.1 November 7
+Added a spiffy menu bar and changed the snooze bar so
+it is blue.  Changed the file dialog back to QFileDialog.  Developers
+on the KDE-devel list were (once again) very unhelpful in even
+bothering to find a solution to the problem. :(   The problem is that
+KFileDialog will translate some special characters (like the
+apostrophe) into its unicode equilvalent, like %29 or whatever.  A lot
+of times, mp3s have weird names, so this can lead to problems.  If
+anyone has any solutions, email me at vigmeup@lowrent.org.
+
+0.1.0 September 3
+Changed the CHANGELOG so the most recent are on the top.
+Fixed a grammatical error in the CHANGELOG. (I had used errata to refer to one
+error.)
+Now I have an icon (from 0.07b) and a kdelnk file that will install when make
+install runs.
+The biggest changes are the new configuration options, ampProgram, and
+snoozeLength.  Now YOU can select the program you use to play mp3s (Replay,
+tkplay, x11amp, whatever!!) as long as it handles the first file argument as
+the mp3.  There is now an on-board dialog to change the snooze length.  Both
+of these options are saved with KConfig.
+Changed numbering style similar to Linux kernel, this is development 0.1.0.
+Use 0.07b if you are worried about stability, however, it still uses x11amp
+and a snooze length of 10 minutes, but you can edit the source to change that.
+Web pages are up at http://www.c-nix.com/vigmeup
+Announced to freshmeat.net
+
+0.07b August 05
+Wonderful. Finally! Use KConfig and it works!
+Last mp3 is saved and loaded on start up.
+Also, KFileDialog is used instead of QFileDialog
+This is the first version that is being released onto the net.
+
+0.06b July 30
+Read Forbes article on Free Software.
+Fixes bug where /dev/dsp is locked by your amp program.
+Fixed a scroll bar bug.
+
+0.05b
+Added a fixed width to the main dialog.
+
+0.04b
+Added mp3 Filter
+Uses and needs KDE. This is a KDE Application, not a qt application.
+Still depends on Qt though.
+
+0.03b Bug Fixing, feature adding
+Fixed space in file name errors.
+Fixed apostrophe in file name errors.
+Supports all file names now.
+
+0.02b Secondary design
+File selection enabled. Fill select any file and attempt to play it using x11amp. Therefore, a filter is needed.
+Erratum: File names with an apostrophe (') will cause the system call to choke
+and the alarm will not go off.
+
+0.01b Initial Design Jun 11 1998. Night before two finals.
+Alarm Clock like. Qt dependent. Doesn't need kde.
+
+
+
+

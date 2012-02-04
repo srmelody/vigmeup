@@ -1,0 +1,13 @@
+Begin3
+Title:          Vigmeup 
+Version:        1.0.3
+Entered-date:   19JUN00
+Description: An alarm clock application that uses mp3s to wake you up
+Keywords:       KDE, X11, Qt 
+Author:         Sean Melody <vigmeup@c-nix.com> 
+Maintained-by:  Sean Melody <vigmeup@c-nix.com> 
+Primary-site:   http://www.c-nix.com/vigmeup	
+Original-site:  
+Platforms:       Linux and other Unices, needs Qt and the KDE libs
+Copying-policy: GPL
+End

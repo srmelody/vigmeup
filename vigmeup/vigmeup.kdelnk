@@ -1,0 +1,11 @@
+# KDE Config File  
+[KDE Desktop Entry]
+Type=Application
+Exec=vigmeup  
+Icon=vigmeup.xpm
+DocPath=vigmeup/index.html
+Comment=
+Comment[de]=
+Terminal=0
+Name=vigmeup
+Name[de]=vigmeup
